@@ -35,7 +35,9 @@
 .featured-project-content p,
 .research-content p,
 .approach-item p,
-.life-card p {
+.life-card p,
+.value-card p,
+.journey-item p {
   text-align: justify;
   text-justify: inter-ideograph;
   text-align-last: left;
@@ -556,20 +558,6 @@ p {
     repeat(4, minmax(0, 1fr));
 
   gap: 20px;
-}
-
-.journey-timeline::before {
-  content: "";
-
-  position: absolute;
-
-  top: 27px;
-  left: 6%;
-  right: 6%;
-
-  height: 1px;
-
-  background: #d7e3d4;
 }
 
 .journey-item {
